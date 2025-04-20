@@ -1,90 +1,106 @@
-# PharmacyCRM
+# Pharmacy CRM System
 
-A Qt-based Customer Relationship Management (CRM) desktop application tailored for pharmacy operations. The system enables efficient management of clients, medicines, employees, and sales receipts with a user-friendly GUI and persistent storage using SQLite.
+**Lebanese American University**
 
-## 📚 Project Information
+**Pharmacy Customer Relationship Management System**
 
-**University:** Lebanese American University  
-**Course:** COE 415 - Computer Programming II  
+**README**  
+**COE 415 - Computer Programming II**
 
-**Team Members:**
-- **Project Manager:** Elie Joe Farah (202100358)
-- **Solutions Architect:** Mohamad Riad El Terek (202100178)
-- **Technical Expert & Documentation:** Nour Mikhael (202102809)
-- **Presales Engineer:** Taline Zeidan (202104293)
+**Project Manager:**  
+Elie Joe Farah - 202100358
 
----
+**Solutions Architect :**  
+Mohamad Riad El Terek - 202100178
 
-## 🛠️ Technologies Used
+**Technical Expert:**  
+Nour Mikhael - 202102809
 
-- **Programming Language:** C++
-- **Framework:** Qt 6.9 (Qt Widgets)
-- **Database:** SQLite (file-based)
-- **Build System:** qmake
-- **IDE:** Qt Creator (recommended)
+**Presales Engineer:**  
+Taline Zeidan - 202104293
+
+**Prepared by:** Nour Mikhael
 
 ---
 
-## ✨ Features
+## Pharmacy Customer Relationship Management System - README
 
-- Add, view, and manage client records
-- Maintain an inventory of medicines
-- Record sales receipts associated with clients
-- Manage employees and managers with role-based access
-- GUI fully built with Qt Designer
-- Data persistence via SQLite backend
+### PharmacyCRM
+
+A Qt-based Customer Relationship Management (CRM) desktop application tailored for pharmacy operations. The system allows pharmacy staff to manage clients, medicines, employees, and sales receipts efficiently with a user-friendly GUI and persistent storage using SQLite.
 
 ---
 
-## 🚀 How to Run the Project
+## Technologies Used
 
-### ✅ Prerequisites
-
-1. **Install Qt**:
-   - Download from [qt.io/download](https://www.qt.io/download)
-   - Use the Qt Online Installer
-   - Select **Qt 6.9.0** or higher during installation
-   - Ensure **Qt Creator** and a **C++ compiler** (MinGW or Clang) are selected
-
-2. **System Requirements**:
-   - Qt 6.9.0 or higher
-   - Compatible C++17 compiler (e.g., MinGW for Windows, Clang for macOS)
-   - Basic familiarity with Qt Creator
+● Programming Language: C++  
+● Framework: Qt 6.9 (Qt Widgets)  
+● Database: SQLite (file-based)  
+● Build System: qmake  
+● IDE: Qt Creator (Recommended)
 
 ---
 
-### 🪟 For Windows Users
+## Features
 
-1. Open **Qt Creator**
-2. Click **Open Project...** and select `PharmacyCRM.pro`
-3. Choose a kit (e.g., MinGW 64-bit Qt 6.9.0)
-4. Click **Configure Project**
-5. Press the green **Play** button to build and run
-
----
-
-### 🍎 For macOS Users
-
-1. Open **Qt Creator** (ensure Xcode or Clang is installed)
-2. Open `PharmacyCRM.pro`
-3. Choose a kit (e.g., Clang Qt 6.9.0)
-4. Configure and run the project
-
-**Note:** Make sure `pharmacy.db` has the correct write permissions.
+● Add, view, and manage client records  
+● Maintain an inventory of medicines  
+● Record sales receipts associated with clients  
+● Manage employees and managers with role-based access  
+● GUI built entirely with Qt Designer  
+● Data persistence via SQLite backend
 
 ---
 
-## ⚠️ Notes
+## How to Run the Project
 
-- If you encounter `.pro.user` errors, ignore and reconfigure the kit
-- The database `pharmacy.db` is created locally in the project directory
-- Ensure the system has write permissions for database creation
+### Prerequisites
+
+To run this project, you need to have Qt installed on your machine. Qt is a cross-platform development framework that includes everything needed to build and run this application. You can download it by following these steps:
+
+1. Visit the official Qt website: https://www.qt.io/download  
+2. Click Download Qt Online Installer for Windows/macOS depending on your system  
+3. Install the package and choose the latest available version (e.g., Qt 6.9.0) during setup  
+4. Ensure that Qt Creator and at least one C++ compiler toolchain (MinGW or Clang) are selected during installation  
+
+If you do not have a Qt account, you may need to register for a free community account during installation.
+
+● Qt 6.9.0 or higher installed (with Qt Creator)  
+● A compatible C++17 compiler (e.g., MinGW for Windows, Clang for macOS)  
+● Basic familiarity with using Qt Creator
 
 ---
 
-## 📁 Folder Structure
+### Step-by-Step Guide
 
-To be customized with actual directory structure, e.g.:
+#### For Windows Users:
+
+1. Open Qt Creator  
+2. Click Open Project... and select the file `PharmacyCRM.pro`  
+3. Choose a kit like MinGW 64-bit Qt 6.9.0 (or similar)  
+4. Click Configure Project  
+5. Press the green play button to build and launch the app
+
+#### For macOS Users:
+
+1. Open Qt Creator (ensure Xcode or Clang is installed)  
+2. Open `PharmacyCRM.pro`  
+3. Choose a kit such as Clang (Qt 6.9.0)  
+4. Configure and run the project as above
+
+> On macOS, ensure file permissions are set to allow writing a local `pharmacy.db`
+
+---
+
+## Notes
+
+● If `.pro.user` errors appear, ignore and reconfigure the kit  
+● All data is saved locally in `pharmacy.db`, created in the project directory  
+● Ensure the database file exists or the system has permissions to generate it
+
+---
+
+## Folder Structure - Visible once Qt creator is open
 
 <pre>
 PharmacyCRM/
@@ -95,9 +111,8 @@ PharmacyCRM/
 └── PharmacyCRM.pro  # Project file
 </pre>
 
-
 ---
 
-## 📄 License
+## License
 
-This project was developed for academic purposes and is **not intended for commercial distribution**.
+This project was created as part of an academic course and is not intended for commercial distribution.
